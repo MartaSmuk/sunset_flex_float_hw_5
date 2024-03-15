@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+/*0*/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+/*1*/
+body {
+    background-image: url(../img/pink-flowers.png);
+    font-family: "Roboto", Arial, sans-serif;
+    font-weight: 400;
+}
+
+/*10*/
+.wraper {
+    width: 89%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 0 3%;
+    box-shadow: 0 4px 5px #888888;
+    margin-bottom: 2%;
+}
+
+/*10*/
+.uppercase,
+.second_article__text__paragraph--uppercase {
+    text-transform: uppercase;
+}
+
+/*1*/
+h1 {
+    padding-top: 60px;
+    margin-bottom: 46px;
+    font-size: 2rem;
+    color: #A11414;
+}
+
+/*10*/
+.sunset_img {
+    border: 1px solid #000;
+    padding: 13px 14px;
+}
+
+/*11*/
+.sunset_img img {
+    width: 100%;
+}
+
+/*1*/
+h2 {
+    margin-bottom: 20px;
+}
+
+/*1*/
+p {
+    line-height: 150%;
+}
+
+/*10*/
+.first_article {
+    display: flex;
+    margin-top: 70px;
+    justify-content: space-between;
+}
+
+/*10*/
+.first_article__text {
+    margin-right: 2%;
+}
+
+/*10*/
+.first_article__navigation__list {
+    width: 13%;
+    height: fit-content;
+    border-radius: 2px 15px;
+    background: #D7D7D7;
+    padding: 29px 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-shrink: 0;
+}
+
+/*11*/
+a:visited {
+    color: black;
+}
+
+/*11*/
+/*10*/
+/*1*/
+a:hover,
+.second_article__text__paragraph--red-letters,
+h2 {
+    color: #A11414;
+}
+
+/*1*/
+h3 {
+    text-transform: uppercase;
+    margin-bottom: 24px;
+    font-weight: 700;
+}
+
+/*11*/
+.first_article__navigation__list ul {
+    list-style: none;
+}
+
+/*10*/
+.first_article__text__paragraph,
+.second_article__text__paragraph--one,
+.second_article__text__paragraph--two {
+    text-indent: 40px;
+    margin-bottom: 20px;
+}
+
+/*10*/
+.second_article__text__paragraph--crossed {
+    text-decoration: line-through;
+}
+
+/*10*/
+.footer__text--bold {
+    font-weight: 600;
+}
+
+/*10*/
+.footer__text {
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+
+}
+
+/*10*/
+.divider {
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    padding: 20px
+}
+
+/*20*/
+.divider::before,
+.divider::after {
+    flex: 1;
+    content: '';
+    padding: 1px;
+    background-color: #403636;
+    margin: 0 140px;
+}
