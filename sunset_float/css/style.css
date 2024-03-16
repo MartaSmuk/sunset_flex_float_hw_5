@@ -83,10 +83,10 @@ p {
     flex-shrink: 0;
 }
 
+/*10*/
 .first_article__clear {
     clear: both;
 }
-
 
 /*11*/
 a:visited {
