@@ -147,7 +147,7 @@ h3 {
 .divider::after {
     flex: 1;
     content: '';
-    padding: 1px;
+    padding: 0.5px;
     background-color: #403636;
     margin: 0 140px;
 }
