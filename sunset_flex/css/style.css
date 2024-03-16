@@ -74,7 +74,7 @@ p {
 
 /*10*/
 .first_article__navigation__list {
-    width: 13%;
+    width: 11.5%;
     height: fit-content;
     border-radius: 2px 15px;
     background: #D7D7D7;
@@ -132,7 +132,6 @@ h3 {
     font-size: 15px;
     display: flex;
     align-items: center;
-
 }
 
 /*10*/
