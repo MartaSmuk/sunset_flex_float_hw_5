@@ -26,7 +26,7 @@ body {
 }
 
 /*10*/
-.uppercase,
+.heading--uppercase,
 .second_article__text__paragraph--uppercase {
     text-transform: uppercase;
 }
