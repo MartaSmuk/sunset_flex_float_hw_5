@@ -66,8 +66,6 @@ p {
     margin-top: 70px;
 }
 
-
-
 /*10*/
 .first_article__text {
     margin-right: 2%;
@@ -84,6 +82,11 @@ p {
     font-family: Arial, Helvetica, sans-serif;
     flex-shrink: 0;
 }
+
+.first_article__clear {
+    clear: both;
+}
+
 
 /*11*/
 a:visited {
