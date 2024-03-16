@@ -75,6 +75,7 @@ p {
 
 /*10*/
 .first_article__navigation__list {
+    float: right;
     width: 13%;
     height: fit-content;
     border-radius: 2px 15px;
