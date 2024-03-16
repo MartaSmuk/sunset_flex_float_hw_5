@@ -109,6 +109,10 @@ h3 {
     list-style: none;
 }
 
+.second_article {
+    margin-top: 4%;
+}
+
 /*10*/
 .second_article__text__paragraph--one,
 .second_article__text__paragraph--two {
