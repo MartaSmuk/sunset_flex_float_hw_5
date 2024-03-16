@@ -40,13 +40,13 @@ h1 {
 }
 
 /*10*/
-.sunset_img {
+.heading--sunset_img {
     border: 1px solid #000;
     padding: 13px 14px;
 }
 
 /*11*/
-.sunset_img img {
+.heading--sunset_img img {
     width: 100%;
 }
 
