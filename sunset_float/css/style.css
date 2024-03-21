@@ -85,8 +85,10 @@ p {
 }
 
 /*10*/
-.first_article__clear {
+.first_article__clear::after {
+    content: "";
     clear: both;
+    display: table;
 }
 
 /*1*/
@@ -149,7 +151,7 @@ h3 {
 .first_article__text__paragraph,
 .second_article__text__paragraph--one,
 .second_article__text__paragraph--two {
-    text-indent: 5px;
+    text-indent: 3.1%;
 }
 
 /*10*/
