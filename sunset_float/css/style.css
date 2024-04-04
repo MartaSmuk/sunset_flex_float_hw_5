@@ -24,41 +24,46 @@ body {
     margin: 0 auto;
     background-color: #fff;
     padding: 0 3%;
+    box-shadow: 0 4px 5px #888888;
+    margin-bottom: 2%;
 }
 
 
 /*10*/
-.heading--uppercase,
-.second_article__text__paragraph--uppercase {
+.header__heading--spec,
+.article__item--uppercase {
+    font-weight: 700;
     text-transform: uppercase;
 
 }
 
 /*1*/
-h1 {
-    padding-top: 6.6%;
-    padding-bottom: 3.2%;
+.header__heading {
+    padding-top: 60px;
+    margin-bottom: 46px;
     font-size: 2rem;
     color: #A11414;
-    font-family: "Roboto", Arial, sans-serif;
-    font-weight: 400;
 }
 
-/*10*/
+/* 10
 .heading--uppercase {
     font-weight: 700;
-}
+} */
 
 /*10*/
-.heading--sunset_img {
+.header__img-wrap {
     border: 1px solid #000;
     padding: 0.9% 1.1%;
+    border-radius: 2px;
+	margin-bottom: 57px;
 }
 
 /*11*/
-.heading--sunset_img img {
+.header__img-wrap img{
     width: 100%;
 }
+
+/*//////////////*/
 
 /*1*/
 p {
@@ -68,12 +73,12 @@ p {
 }
 
 /*10*/
-.first_article {
+.section--flx {
     margin-top: 4%;
 }
 
 /*10*/
-.first_article__navigation__list {
+.nav-wrap {
     float: right;
     width: 13%;
     height: fit-content;
@@ -85,7 +90,7 @@ p {
 }
 
 /*10*/
-.first_article__clear::after {
+.article__clear::after {
     content: "";
     clear: both;
     display: table;
@@ -101,14 +106,14 @@ a {
 /*10*/
 /*1*/
 a:hover,
-.second_article__text__paragraph--red-letters {
+.article__item--red {
     font-weight: 700;
     color: #A11414;
-    text-decoration: underline;
+    /* text-decoration: underline; */
 }
 
 /*1*/
-h2 {
+.article__heading {
     color: #A11414;
     margin-bottom: 2%;
     font-family: "Roboto", Arial, sans-serif;
@@ -117,7 +122,7 @@ h2 {
 }
 
 /*10*/
-.second_article {
+.section {
     margin-top: 2%;
 }
 
@@ -131,7 +136,7 @@ h3 {
 
 
 /*11*/
-.first_article__navigation__list ul {
+.nav-wrap ul {
     font-family: Arial;
     font-weight: 400;
     font-size: 16px;
@@ -140,24 +145,24 @@ h3 {
 }
 
 /*10*/
-.first_article__text__paragraph,
-.second_article__text__paragraph--one,
+.article__item,
+.article__item,
 .second_article__text__paragraph--two {
     text-indent: 2.7%;
 }
 
 /*10*/
-.second_article__text__paragraph--one {
+.article__item {
     margin-bottom: 2.9%;
 }
 
 /*10*/
-.second_article__text__paragraph--crossed {
+.article__item--crossed {
     text-decoration: line-through;
 }
 
 /*10*/
-.footer__text--bold {
+.footer__item--bold {
     font-weight: 700;
 }
 
@@ -169,7 +174,7 @@ h3 {
 }
 
 /*10*/
-.divider {
+.footer__line {
     display: flex;
     flex-direction: row;
     align-content: flex-start;
